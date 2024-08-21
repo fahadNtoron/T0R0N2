@@ -1,0 +1,127 @@
+/* default font and color*/
+*{
+    font-family: "Indie Flower", cursive;
+    color: white;
+}
+/* for display flex */
+.df{ display: flex;}
+/* navbar  */
+.nav-con{
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-links{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav-button{
+    border:2px solid rgba(46,46,46,0.5);
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    height: max-content ;
+    gap: 47px;
+    border-radius: 30px;
+} 
+.btn-nav{
+    background-color: #E6533C ;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 0px;
+}
+.no-home{
+    gap : 50px;
+    padding: 5px 15px;
+}
+/* banner background and content */
+.banner{
+    background-image: linear-gradient(#030303,#232323,#030303);
+}
+/* for making text no decoration */
+.no-dec{
+    text-decoration: none;
+    color:white ;
+}
+/* genrel button */
+.btn{
+    background-color: #E6533C;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    padding: 16px 40px;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+/* extre button */
+.e-btn{
+    background-color: transparent;
+    border-radius: 30px;
+    text-align: center;
+    padding: 16px 40px;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
+/* banner buttons */
+.banner-button{
+    display: flex;
+    gap:14px ;
+    margin-top:2.75rem;
+    margin-bottom: 4.75rem;
+}
+/* button trans */
+.no-back{
+    background-color: transparent;
+    border: none;
+}
+/* for fixing banner contant and pic */
+.cont-pic{
+    justify-content: space-around;
+}
+.banner-pic{
+    margin-top: 8.4375rem;
+}
+/* creating an emty dot */
+.dot{
+    height: 3rem;
+    width: 3rem;
+    background-color: #E6533C;
+    border-radius: 50%;
+
+}
+.card1, .card2{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    width: 220px;
+    height: 98px;
+    backdrop-filter: blur(15px);
+}
+.c-tit1{
+    font-size: 24px;
+}
+.txt-tr{
+    color:rgba(255, 255, 255, 0.5);
+}
+.c-tit2{
+    font-size:50px;
+}
+.c-con{
+    font-size: 15px;
+}
+.c-align{
+    text-align:center start;
+    padding: 17px 20px 16px 24px;
+
+}
+.card2{
+    height: fit-content;
+    margin-left: -130px;
+    margin-top: -300px;
+}
+.mar{
+    margin-left: -450px;
+    margin-top: 350px;
+}
+/* blur back */
