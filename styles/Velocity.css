@@ -3,8 +3,26 @@
     font-family: "Indie Flower", cursive;
     color: white;
 }
+/* black background */
+.bbg{
+    background-color: black;
+}
 /* for display flex */
 .df{ display: flex;}
+/* for center */
+.cntr{
+    justify-content: center;
+    text-align: center;
+}
+/* for hiding small sdevices element normarly */
+.hide{
+    display: none;
+}
+/* for round border */
+.round-border img{
+    border: 5px solid#232323;
+    border-radius: 50%;
+}
 /* navbar  */
 .nav-con{
     justify-content: space-around;
@@ -101,6 +119,7 @@
 .c-tit1{
     font-size: 24px;
 }
+/* transparent text */
 .txt-tr{
     color:rgba(255, 255, 255, 0.5);
 }
@@ -124,6 +143,11 @@
     margin-left: -450px;
     margin-top: 350px;
 }
+.con-pos1{
+    justify-content: center;
+    gap: 120px;
+    margin-top: 100px;
+}
 @media screen and (max-width: 576px) {
     .nav-button{
         display: none;
@@ -138,8 +162,7 @@
     }
     .cont-pic{
         flex-direction: column;
-        margin-left: 20px;
-        margin-right:20px ;
+        align-items: center;
     }
     .mar{
         margin-left: -350px;
@@ -150,5 +173,15 @@
         margin-left: -130px;
         margin-top: -500;
     }
-    
+    .small-font{
+        font-size:1.5rem;
+    }
+    .smallfont-des{
+        font-size: 0.8rem;
+    }
+    .con-pos1{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 }
