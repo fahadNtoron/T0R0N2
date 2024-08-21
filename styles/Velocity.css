@@ -124,4 +124,31 @@
     margin-left: -450px;
     margin-top: 350px;
 }
-/* blur back */
+@media screen and (max-width: 576px) {
+    .nav-button{
+        display: none;
+    }
+    .menu-bar{
+        display: flex;
+        flex-direction: column;
+        width: 35px;
+        height: 3px;
+        background-color: white;
+        margin: 6px 0;
+    }
+    .cont-pic{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right:20px ;
+    }
+    .mar{
+        margin-left: -350px;
+        margin-top: 250px;
+    }
+    .card2{
+        height: fit-content;
+        margin-left: -130px;
+        margin-top: -500;
+    }
+    
+}
