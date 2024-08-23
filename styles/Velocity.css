@@ -3,6 +3,9 @@
     font-family: "Indie Flower", cursive;
     color: white;
 }
+.black-back{
+    background-color: black;
+}
 /* for bold text */
 .bld-txt{
     font-weight: bolder;
@@ -32,7 +35,10 @@
 }
 /* light ash back */
 .light-ash-back{
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgb(56,56,56);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 /* for display flex */
 .df{ display: flex;}
@@ -52,7 +58,6 @@
 /* for center but starting point */
 .cntr-strt{
     justify-content:space-around;
-    align-items:;
     text-align: start;
 }
 /* for hiding small sdevices element normarly */
@@ -205,12 +210,12 @@
     margin-top: 0px;
 }
 .tbl-design, td{
-    border: 1px solid black;
+    border: 1px solid rgb(56,56,56);
     border-collapse: collapse;
     padding: 10px;
 }
 .tbl-design{
-    width:310px ;
+    width:310px;
 }
 .callxulator-card{
 padding-top: 50px;
@@ -243,6 +248,7 @@ align-items: start;
     flex: 1;
     width: 20%;
     border-radius: 40px;
+    filter: brightness(70%);
 }
 .collage{
     gap: 20px; 
@@ -250,6 +256,72 @@ align-items: start;
 }
 .some-margin{
     margin: auto 190px;
+}
+.some-margin2{
+    margin:88px 19px 273px 19px ;
+}
+.str-line{
+    border-top: 5px solid rgba(255, 255, 255, 0.5);
+    width: 1400px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 190px 0px 190px;
+}
+.opp{
+    opacity: .2;
+}
+.some-pad3m{
+    padding-bottom: 29px;
+}
+.position3{
+    position:absolute;
+    justify-content: center;
+    text-align: start;
+    gap: 400px;
+    left:400px;
+}
+.position-1{
+    display: flex;
+    position: relative;
+    top: -680px;
+    left: 370px;
+}
+.position-2{
+    display: flex;
+    position: relative;
+    top: -790px;
+    left: 780px;
+}
+.position-4{
+    display: flex;
+    position: relative;
+    top: -600px;
+    left: 370px;
+}
+.position-3{
+    display: flex;
+    position: relative;
+    top: -900px;
+    left: 1170px;
+}
+.position-5{
+    display: flex;
+    position: relative;
+    top: -710px;
+    left: 780px;
+}
+.position-6{
+    display: flex;
+    position: relative;
+    top: -820px;
+    left: 1200px;
+}
+.back-img{
+    background-image: url("../images/get-kuat-gym.gif"), url("../images/get-kuat-gym.gif"), url("../images/fitness-workout.gif"), url("../images/fitness-center-workout.gif"), url("../images/exercise-simao.gif"), url("../images/exercise-hummp.gif"), url("../images/fitness-center-workout.gif"), url("../images/exercise-simao.gif"), url("../images/exercise-hummp.gif");
+    background-repeat: no-repeat;
+    background-position:right top, right bottom, right center, left top, left bottom, left center, center top, center center, center bottom;
+    background-attachment: fixed;
 }
 @media screen and (max-width: 576px) {
     /* for flex direction change */
@@ -336,5 +408,25 @@ align-items: start;
     .collage img{
         width: 100%;
     }
+    .some-margin2{
+        margin:88px 0px 273px 0px ;
+        padding-left: 25px;
+    }
+    .str-line{
+        border-top: 5px solid rgba(255, 255, 255, 0.5);
+        width: 350px;
+        height: 100px;
+        margin: 90px 35px -10px 25px;
+    }  
+    .play-button{
+        position: relative;
+        right: -22px;
+        top: -63px;
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-left: 30px solid white;
+        border-bottom: 15px solid transparent;
+      }
 
 }
